@@ -1,4 +1,4 @@
-# Alpine :: Binance Smart Chain
+# Alpine :: rsyslog
 ![size](https://img.shields.io/docker/image-size/11notes/rsyslog/8.2306?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/rsyslog?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/rsyslog?color=2b75d6) ![activity](https://img.shields.io/github/commit-activity/m/11notes/docker-rsyslog?color=c91cb8) ![commit-last](https://img.shields.io/github/last-commit/11notes/docker-rsyslog?color=c91cb8)
 
 Run rsyslog based on Alpine Linux. Small, lightweight, secure and fast 🏔️
