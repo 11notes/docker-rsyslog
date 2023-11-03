@@ -11,6 +11,7 @@ The default configuration will redirect all rsyslog to telegraf on localhost:651
 ## Run
 ```shell
 docker run --name rsyslog \
+  -p 8514:8514/udp \
   -v ../etc:/rsyslog/etc \
   -d 11notes/rsyslog:[tag]
 ```
@@ -21,6 +22,7 @@ docker run --name rsyslog \
 | `user` | docker | user docker |
 | `uid` | 1000 | user id 1000 |
 | `gid` | 1000 | group id 1000 |
+| `port` | 8514/udp | default listening port |
 | `home` | /rsyslog | home directory of user docker |
 
 ## Parent image
